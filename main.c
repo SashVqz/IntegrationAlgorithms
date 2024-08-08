@@ -13,7 +13,7 @@ int main() {
     // generateCurvePoints(f1, 30);
     // generateCurvePoints(f2, 30);
 
-    double exact_value = -1.0 + (2.0 * E / PI); // exact value of the area between the curves example!!!
+    double exact_value = -1.0 + (2.0 * E / PI); // exact value of the area between the curves, example!!!
 
     // Rectangle method
     double areaRectangles = fabs(calculateRectangleArea(f1) - calculateRectangleArea(f2));
